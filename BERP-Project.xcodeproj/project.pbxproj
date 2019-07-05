@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		2E4A53B322CFA53E00B56344 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4A53B222CFA53E00B56344 /* AppDelegate.swift */; };
-		2E4A53B522CFA53E00B56344 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4A53B422CFA53E00B56344 /* ViewController.swift */; };
+		2E4A53B522CFA53E00B56344 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4A53B422CFA53E00B56344 /* LoginViewController.swift */; };
 		2E4A53B822CFA53E00B56344 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E4A53B622CFA53E00B56344 /* Main.storyboard */; };
 		2E4A53BA22CFA54000B56344 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E4A53B922CFA54000B56344 /* Assets.xcassets */; };
 		2E4A53BD22CFA54000B56344 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E4A53BB22CFA54000B56344 /* LaunchScreen.storyboard */; };
+		2E4A53C522CFAD5700B56344 /* icon-out.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E4A53C422CFAD5700B56344 /* icon-out.png */; };
+		2E4A53C822CFAE3900B56344 /* logo-main.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E4A53C722CFAE3900B56344 /* logo-main.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2E4A53AF22CFA53E00B56344 /* BERP-Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BERP-Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E4A53B222CFA53E00B56344 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2E4A53B422CFA53E00B56344 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2E4A53B422CFA53E00B56344 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		2E4A53B722CFA53E00B56344 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E4A53B922CFA54000B56344 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E4A53BC22CFA54000B56344 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E4A53BE22CFA54000B56344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E4A53C422CFAD5700B56344 /* icon-out.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-out.png"; sourceTree = "<group>"; };
+		2E4A53C722CFAE3900B56344 /* logo-main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-main.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,24 @@
 		2E4A53B122CFA53E00B56344 /* BERP-Project */ = {
 			isa = PBXGroup;
 			children = (
+				2E4A53C622CFAD6300B56344 /* Images */,
 				2E4A53B222CFA53E00B56344 /* AppDelegate.swift */,
-				2E4A53B422CFA53E00B56344 /* ViewController.swift */,
+				2E4A53B422CFA53E00B56344 /* LoginViewController.swift */,
 				2E4A53B622CFA53E00B56344 /* Main.storyboard */,
 				2E4A53B922CFA54000B56344 /* Assets.xcassets */,
 				2E4A53BB22CFA54000B56344 /* LaunchScreen.storyboard */,
 				2E4A53BE22CFA54000B56344 /* Info.plist */,
 			);
 			path = "BERP-Project";
+			sourceTree = "<group>";
+		};
+		2E4A53C622CFAD6300B56344 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2E4A53C722CFAE3900B56344 /* logo-main.png */,
+				2E4A53C422CFAD5700B56344 /* icon-out.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +137,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E4A53BD22CFA54000B56344 /* LaunchScreen.storyboard in Resources */,
+				2E4A53C522CFAD5700B56344 /* icon-out.png in Resources */,
 				2E4A53BA22CFA54000B56344 /* Assets.xcassets in Resources */,
 				2E4A53B822CFA53E00B56344 /* Main.storyboard in Resources */,
+				2E4A53C822CFAE3900B56344 /* logo-main.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E4A53B522CFA53E00B56344 /* ViewController.swift in Sources */,
+				2E4A53B522CFA53E00B56344 /* LoginViewController.swift in Sources */,
 				2E4A53B322CFA53E00B56344 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
