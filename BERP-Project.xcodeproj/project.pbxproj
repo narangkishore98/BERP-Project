@@ -14,6 +14,9 @@
 		2E4A53BD22CFA54000B56344 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E4A53BB22CFA54000B56344 /* LaunchScreen.storyboard */; };
 		2E4A53C522CFAD5700B56344 /* icon-out.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E4A53C422CFAD5700B56344 /* icon-out.png */; };
 		2E4A53C822CFAE3900B56344 /* logo-main.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E4A53C722CFAE3900B56344 /* logo-main.png */; };
+		2E4A53CA22CFE91600B56344 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4A53C922CFE91600B56344 /* SignUpViewController.swift */; };
+		2E4A53CD22CFE98000B56344 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4A53CC22CFE98000B56344 /* DataStore.swift */; };
+		2E4A53CF22CFE99700B56344 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4A53CE22CFE99700B56344 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		2E4A53BE22CFA54000B56344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E4A53C422CFAD5700B56344 /* icon-out.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-out.png"; sourceTree = "<group>"; };
 		2E4A53C722CFAE3900B56344 /* logo-main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-main.png"; sourceTree = "<group>"; };
+		2E4A53C922CFE91600B56344 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		2E4A53CC22CFE98000B56344 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		2E4A53CE22CFE99700B56344 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		2E4A53B122CFA53E00B56344 /* BERP-Project */ = {
 			isa = PBXGroup;
 			children = (
+				2E4A53CB22CFE96900B56344 /* Utilities */,
 				2E4A53C622CFAD6300B56344 /* Images */,
 				2E4A53B222CFA53E00B56344 /* AppDelegate.swift */,
 				2E4A53B422CFA53E00B56344 /* LoginViewController.swift */,
@@ -65,6 +72,7 @@
 				2E4A53B922CFA54000B56344 /* Assets.xcassets */,
 				2E4A53BB22CFA54000B56344 /* LaunchScreen.storyboard */,
 				2E4A53BE22CFA54000B56344 /* Info.plist */,
+				2E4A53C922CFE91600B56344 /* SignUpViewController.swift */,
 			);
 			path = "BERP-Project";
 			sourceTree = "<group>";
@@ -76,6 +84,15 @@
 				2E4A53C422CFAD5700B56344 /* icon-out.png */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		2E4A53CB22CFE96900B56344 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				2E4A53CC22CFE98000B56344 /* DataStore.swift */,
+				2E4A53CE22CFE99700B56344 /* User.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,7 +168,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E4A53CA22CFE91600B56344 /* SignUpViewController.swift in Sources */,
+				2E4A53CD22CFE98000B56344 /* DataStore.swift in Sources */,
 				2E4A53B522CFA53E00B56344 /* LoginViewController.swift in Sources */,
+				2E4A53CF22CFE99700B56344 /* User.swift in Sources */,
 				2E4A53B322CFA53E00B56344 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

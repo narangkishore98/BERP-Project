@@ -86,7 +86,7 @@
         <!--Sign Up-->
         <scene sceneID="JfQ-44-fwK">
             <objects>
-                <viewController title="Sign Up" id="8QE-IY-3o8" sceneMemberID="viewController">
+                <viewController title="Sign Up" id="8QE-IY-3o8" customClass="SignUpViewController" customModule="BERP_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Cug-e1-qeZ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
