@@ -66,6 +66,7 @@
 		2E4A53B122CFA53E00B56344 /* BERP-Project */ = {
 			isa = PBXGroup;
 			children = (
+				9BD73AC222D006F200D4AE27 /* Errors */,
 				2E4A53CB22CFE96900B56344 /* Utilities */,
 				2E4A53C622CFAD6300B56344 /* Images */,
 				2E4A53B222CFA53E00B56344 /* AppDelegate.swift */,
@@ -96,6 +97,13 @@
 				2E4A53D022CFECAE00B56344 /* Employee.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		9BD73AC222D006F200D4AE27 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Errors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

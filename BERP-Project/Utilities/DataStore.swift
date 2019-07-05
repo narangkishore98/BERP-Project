@@ -18,10 +18,9 @@ class DataStore
     {
         
     }
-    static func getData() -> DataStore?
+    static func getData() -> DataStore
     {
         return object
-
     }
     private static var users = Array<User>()
     
