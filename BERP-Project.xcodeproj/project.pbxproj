@@ -17,6 +17,7 @@
 		2E4A53CA22CFE91600B56344 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4A53C922CFE91600B56344 /* SignUpViewController.swift */; };
 		2E4A53CD22CFE98000B56344 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4A53CC22CFE98000B56344 /* DataStore.swift */; };
 		2E4A53CF22CFE99700B56344 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4A53CE22CFE99700B56344 /* User.swift */; };
+		2E4A53D122CFECAE00B56344 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4A53D022CFECAE00B56344 /* Employee.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		2E4A53C922CFE91600B56344 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		2E4A53CC22CFE98000B56344 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		2E4A53CE22CFE99700B56344 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2E4A53D022CFECAE00B56344 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			children = (
 				2E4A53CC22CFE98000B56344 /* DataStore.swift */,
 				2E4A53CE22CFE99700B56344 /* User.swift */,
+				2E4A53D022CFECAE00B56344 /* Employee.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E4A53CA22CFE91600B56344 /* SignUpViewController.swift in Sources */,
+				2E4A53D122CFECAE00B56344 /* Employee.swift in Sources */,
 				2E4A53CD22CFE98000B56344 /* DataStore.swift in Sources */,
 				2E4A53B522CFA53E00B56344 /* LoginViewController.swift in Sources */,
 				2E4A53CF22CFE99700B56344 /* User.swift in Sources */,

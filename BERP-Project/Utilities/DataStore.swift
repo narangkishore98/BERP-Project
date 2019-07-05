@@ -7,3 +7,22 @@
 //
 
 import Foundation
+enum Designation
+{
+    case Worker, Manager, Supervisor
+}
+class DataStore
+{
+    private static var object:DataStore = DataStore()
+    private init()
+    {
+        
+    }
+    static func getData() -> DataStore?
+    {
+        return object
+
+    }
+    private static var users = Array<User>()
+    
+}
