@@ -18,6 +18,7 @@
 		2E4A53CD22CFE98000B56344 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4A53CC22CFE98000B56344 /* DataStore.swift */; };
 		2E4A53CF22CFE99700B56344 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4A53CE22CFE99700B56344 /* User.swift */; };
 		2E4A53D122CFECAE00B56344 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4A53D022CFECAE00B56344 /* Employee.swift */; };
+		9BD73AF322D01A3600D4AE27 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD73AF222D01A3600D4AE27 /* Address.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		2E4A53CC22CFE98000B56344 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		2E4A53CE22CFE99700B56344 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		2E4A53D022CFECAE00B56344 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		9BD73AF222D01A3600D4AE27 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				2E4A53CC22CFE98000B56344 /* DataStore.swift */,
 				2E4A53CE22CFE99700B56344 /* User.swift */,
 				2E4A53D022CFECAE00B56344 /* Employee.swift */,
+				9BD73AF222D01A3600D4AE27 /* Address.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				2E4A53B522CFA53E00B56344 /* LoginViewController.swift in Sources */,
 				2E4A53CF22CFE99700B56344 /* User.swift in Sources */,
 				2E4A53B322CFA53E00B56344 /* AppDelegate.swift in Sources */,
+				9BD73AF322D01A3600D4AE27 /* Address.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
